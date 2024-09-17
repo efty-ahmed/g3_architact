@@ -92,6 +92,40 @@ main {
   color: #131313b2;
 }
 
+/* fact section */
+
+.facts_discription {
+  font-size: small;
+  color: #727272;
+}
+.some_facts {
+  font-weight: 700;
+}
+.facts_card_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.facts_card_container .card {
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  text-align: center;
+  padding: 20px 40px;
+}
+
+.facts_card_container .card_status {
+  font-size: 2rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.facts_card_container .card_title {
+  font-size: small;
+  color: #727272;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
 /* responsive */
 /* mobile devises */
 @media screen and (max-width: 576px) {
