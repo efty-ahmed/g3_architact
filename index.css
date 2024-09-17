@@ -10,7 +10,12 @@
   background-color: #ff900e;
   outline: none;
   color: aliceblue;
+  font-size: 1.2rem;
+
   border: #f38405;
+  border-radius: 8px;
+  padding: 20px 25px;
+  cursor: pointer;
 }
 
 /* header style */
@@ -48,4 +53,29 @@ nav li {
 .banner_discription {
   font-size: small;
   color: rgba(63, 60, 60, 0.795);
+}
+.banner img {
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* responsive */
+/* mobile devises */
+@media screen and (max-width: 576px) {
+  header {
+    padding: 20px;
+  }
+  nav {
+    flex-direction: column;
+  }
+}
+
+/* tablet or mudiam devises */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  nav {
+    flex-direction: column;
+  }
+  header {
+    padding: 50px;
+  }
 }
