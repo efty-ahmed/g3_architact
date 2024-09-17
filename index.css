@@ -79,3 +79,35 @@ nav li {
     padding: 50px;
   }
 }
+/* main section */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.teams_container {
+  display: flex;
+  align-items: center;
+}
+.teams_img_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.team_content {
+  padding: 0 70px;
+}
+.teams_title {
+  font-size: 2.5rem;
+}
+.quick_list {
+  color: #727272;
+  font-weight: 500;
+}
+.features {
+  color: #ff900e;
+  font-weight: 700;
+}
+.teams_description {
+  font-size: small;
+  color: #131313b2;
+}
